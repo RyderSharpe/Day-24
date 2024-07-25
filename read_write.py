@@ -12,10 +12,6 @@ Mode is set to read only by default._
 "a" will append the text in my_file.txt
 
 
-
-with open("my_file.txt", mode="a") as file:
-    file.write("Any string we want")
-
 # if ___.txt does not exist, Pycharm will create a new file from scratch.
 with open("new_file.txt", mode="a") as file:
     file.write("Any string we want")
